@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,86 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+:root {
+  --text-color: #00aa00;
+}
+
+.wb-body {
+  font-weight: 600;
+  background: #111;
+  padding: 20px;
+}
+.hidden {
+  display: none;
+}
+.cursor {
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+
+  50% {
+    color: var(--text-color);
+  }
+}
+
+/* Navbar */
+
+.nav-card {
+  width: auto;
+  margin: auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.nav-btn {
+  font-size: 16px;
+  margin: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-color: #00000000;
+  color: #00AA00;
+  width: auto;
+  background-color:#1E1E1E;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color:#2e2e2e;
+}
+
+.nav-theme {
+text-align: center; 
+font-weight: 500;
+font-family: monospace;
+}
+
+/* About btn */
+
+.aboutButton {
+justify-content:flex-start;
+align-items:flex-start;
+}
+
+/* Contact btn */
+
+.contactButton {
+justify-content:flex-end;
+align-items:flex-end;
+}
+
+.container {
+
 }

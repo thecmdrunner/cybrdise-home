@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
+// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 import './HomepageContent.css'
+
+// import { ReactComponent as PrismLogo } from '../assets/PrismCard.svg';
 
 import { ComingSoonBtn, ProBtn } from './CommonComponents'
 
@@ -48,12 +50,21 @@ export default function HomepageContent() {
     const bull = <span className={classes.bullet}>•</span>;
 
     return (
-        <>
+    <>
+
+    <div style={{
+        // display: 'flex', 
+        // flexWrap: 'wrap', 
+        // flexDirection: 'Row', 
+        // maxWidth: 700,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+    }}>
 
     {/* SITARA */}
 
     <div className="pro-card">
-        <Card className={classes.root} raised="true">
+        <Card className={classes.root}>
             <CardActionArea>
                 <CardMedia
                 className={classes.media}
@@ -110,23 +121,24 @@ export default function HomepageContent() {
     {/* QUICK VM */}
 
     <div className="pro-card">
-        <Card className={classes.root} raised="true">
+        <Card className={classes.root}>
             <CardActionArea>
-                <CardMedia
+                {/* <CardMedia
                 className={classes.media}
                 image="../assets/graphics.svg"
-                />
+                /> */}
+                <div style={{display: 'flex', alignContent: 'center', alignItems: 'center'}}>
+                <img width="90"
+                    src="../assets/PrismCard.svg"
+                    style=
+                {{margin: 'auto',
+                  marginTop: '30px',
+                  maxWidth: '192px'}}
+                alt="project-logo"/>
+                </div>
                 <CardContent>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
-                {/* <img width="90"
-                    src="../assets/vm-logo.svg"
-                    style=
-                {{marginBottom: 'auto',
-                  marginTop: '10px',
-                  marginRight: 'auto',
-                  marginLeft: 'auto',
-                  maxWidth: '192px'}}
-                alt="project-logo"/> */}
+                
                 </div>
                 <div style=
                     {{display: 'flex',
@@ -144,8 +156,8 @@ export default function HomepageContent() {
                     {/* <div style={{fontSize: '40px', fontWeight: '600'}}>
                         Quick VM
                     </div> */}
-                    <div style={{fontSize: '18px'}}>
-                        Make a Windows VM in under 100 seconds!
+                    <div style={{fontSize: 21}}>
+                        Have a Windows VM ready-to-use in under 100 seconds!
                     </div>
                 </div>
                 </CardContent>
@@ -158,7 +170,7 @@ export default function HomepageContent() {
                 {{display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between'}}>
-                <a href="https://blog.cybrdise.com/quick-vm-setup/" style={{textDecoration: 'none'}}>
+                <a href="https://blog.cybrdise.com/quick-vm-setup/" style={{textDecoration: 'none', border: 'none'}}>
                 <ProBtn style={{marginTop: '15px', marginRight: '5px'}}>
                     📑 Read More
                 </ProBtn></a>
@@ -177,12 +189,17 @@ export default function HomepageContent() {
     {/* PRISM */}
 
     <div className="pro-card">
-        <Card className={classes.root} raised="true">
+        <Card className={classes.root}>
             <CardActionArea>
-                <CardMedia
-                className={classes.media}
-                image="../assets/Prism.svg"
-                />
+            <div style={{display: 'flex', alignContent: 'center', alignItems: 'center'}}>
+                <img width="90"
+                    src="./PrismCard.png"
+                    style=
+                {{margin: 'auto',
+                  marginTop: '30px',
+                  maxWidth: '192px'}}
+                alt="project-logo"></img>
+                </div>
                 <CardContent>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                 {/* <img width="90"
@@ -211,7 +228,7 @@ export default function HomepageContent() {
                     {/* <div style={{fontSize: '40px', fontWeight: '600'}}>
                         Quick VM
                     </div> */}
-                    <div style={{fontSize: '18px'}}>
+                    <div style={{fontSize: 20}}>
                     The ultimate Containerization for Proprietary software!
                     </div>
                 </div>
@@ -229,8 +246,11 @@ export default function HomepageContent() {
             </div>
         </span>
 
-        </div>
            
-        </>
+        </div>
+    
+    </div>
+    
+    </>
     )
 }

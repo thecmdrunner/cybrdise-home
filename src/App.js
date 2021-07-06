@@ -21,17 +21,4 @@ function App() {
   );
 }
 
-const theme = {
-    global: {
-      colors: {
-      brand: '#121212',
-    },
-    font: {
-      family: 'DM Mono',
-      size: '18px',
-      height: '20px',
-    },
-  },
-};
-
 export default App;

@@ -5,7 +5,9 @@ export default function Terminal() {
         <div style={{
     color: 'white',
     fontFamily: 'DM Mono, Monospace', 
-    marginBottom: '80px'}}>
+    justifyContent: 'center',
+    margin: 'auto',
+    marginBottom: '30px'}}>
     <p style={{
         textAlign: 'center',
         marginTop: '40px',
@@ -21,12 +23,14 @@ export default function Terminal() {
 
     <div style={{
         alignItems: 'center',
-        textAlign: 'left',
-        maxWidth: '300px',
+        // minWidth: '300px',
+        maxWidth: '320px',
+        // textAlign: 'left',
+        // maxWidth: '370px',
         padding: '10px',
         paddingBottom: '20px',
-        margin: 'auto',
         marginTop: '40px',
+        margin: 'auto',
         backgroundColor: '#1E1E1E',
         fontFamily: 'DM Mono, monospace',
         borderRadius: '5px',

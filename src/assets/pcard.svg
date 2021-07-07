@@ -52,12 +52,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="fill:#f98000;fill-opacity:1;fill-rule:evenodd;stroke-width:1.20623;stroke-linecap:round;stroke-linejoin:round"
-       id="path1012"
-       cx="41.096043"
-       cy="18.67111"
-       rx="30.120058"
-       ry="7.0054154" />
+    <rect
+       style="fill:#22192c;fill-rule:evenodd;stroke-width:1.13983;stroke-linecap:round;stroke-linejoin:round"
+       id="rect830"
+       width="83.34375"
+       height="37.041668"
+       x="8.8817842e-16"
+       y="0"
+       rx="1.8520833"
+       ry="1.8520833" />
   </g>
 </svg>

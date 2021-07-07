@@ -1,14 +1,16 @@
 import React from 'react'
 
 export default function Terminal() {
+
     return (
+    <>
         <div style={{
     color: 'white',
     fontFamily: 'DM Mono, Monospace', 
     justifyContent: 'center',
     margin: 'auto',
     marginBottom: '30px'}}>
-    <p style={{
+        <p style={{
         textAlign: 'center',
         marginTop: '40px',
         marginBottom: '40px',
@@ -21,7 +23,7 @@ export default function Terminal() {
         <span className="cursor">_</span>
     </p>
 
-    <div style={{
+        <div style={{
         alignItems: 'center',
         // minWidth: '300px',
         maxWidth: '320px',
@@ -75,7 +77,7 @@ export default function Terminal() {
 
     </div>
 
-    <div style={{
+        <div style={{
         justifyContent: 'center',
         textAlign: 'center',
         alignItems: 'center',
@@ -86,6 +88,8 @@ export default function Terminal() {
     is all you need.
     </div>
     
-</div>
+    </div>
+
+    </>
     )
 }

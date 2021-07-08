@@ -6,7 +6,7 @@ import Header from "./MyComponents/Header";
 import Homepage from "./MyComponents/Homepage";
 import Sitara from "./MyComponents/MyPages/Sitara";
 import QuickVM from "./MyComponents/MyPages/QuickVM";
-// import Merchandise from "./MyComponents/MyPages/Merchandise";
+import Merchandise from "./MyComponents/MyPages/Merchandise";
 
 import './styles.css'
 
@@ -25,7 +25,7 @@ function App() {
         <Route path="/"           exact component={Homepage} />
         <Route path="/optimize"   exact component={Sitara} />
         <Route path="/quick-vm"   exact component={QuickVM} />
-        {/* <Route path="/design"     exact component={Merchandise} /> */}
+        <Route path="/design"     exact component={Merchandise} />
       
       </Switch>
 

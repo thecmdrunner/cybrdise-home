@@ -5,7 +5,7 @@ import ProductTag from '../CommonComponents';
 function Merchandise() {
     return (
         <>
-        <div style={{
+        <div tabindex="-1" style={{
             display: 'flex', 
             margin: 'auto', 
             alignContent: 'center', 

@@ -15,6 +15,10 @@ import './css/HomepageContent.css'
 
 import { ComingSoonBtn } from './CommonComponents'
 
+import OptimizeLogo from '../assets/pcard.svg';
+import QuickVMLogo from '../assets/QuickVMCard.svg'
+import PrismLogo from '../assets/PrismCard.svg'
+
 const useStyles = makeStyles({
   root: {
     background: '#1e1e1e',
@@ -61,18 +65,21 @@ export default function HomepageContent() {
         marginLeft: 'auto',
         marginRight: 'auto',
         paddingBottom: 30,
+        border: 'none !important',
+
     }}>
 
 {/* SITARA */}
 
     <div className="pro-card">
-    <Link to="/optimize">
         <Card className={classes.root}>
             <CardActionArea>
-                <CardMedia
-                className={classes.media}
-                image={"../assets/vm-logo.svg"}
-                />
+            <img style={{marginLeft: 45, marginTop: 25  }} 
+            alt="logo" 
+            draggable="false" 
+            unselectable="on" 
+            src={OptimizeLogo} 
+            height="140"/>
                 <CardContent>
                 <div style={{display: 'flex', flexDirection: 'column'}}>
                 {/* <img width="90"
@@ -90,7 +97,6 @@ export default function HomepageContent() {
                     flexDirection: 'column',
                     textDecoration: 'none',
                     textAlign: 'center',
-                    marginTop: '20px',
                     marginRight: '20px', 
                     marginLeft: '30px', 
                     maxWidth: '270px',
@@ -123,28 +129,30 @@ export default function HomepageContent() {
             </div>
         </span> */}
 
-    </Link>
     </div>
     
 {/* QUICK VM */}
 
     <div className="pro-card">
-    <Link to="/quick-vm">
         <Card className={classes.root}>
             <CardActionArea>
-            <CardMedia
+            {/* <CardMedia
                 className={classes.media}
                 image={"../assets/vm-logo.svg"}
-                />
+                /> */}
+
+          <img style={{marginTop: 10}}
+          alt="logo" 
+          draggable="false" 
+          unselectable="on" 
+          src={QuickVMLogo} 
+          height="95"/>
+         
                 <CardContent>
-                <div style={{display: 'flex', flexDirection: 'column'}}>
-                
-                </div>
                 <div style=
                     {{display: 'flex',
                     flexDirection: 'column',
                     textAlign: 'center',
-                    marginTop: '20px',
                     marginRight: '20px', 
                     marginLeft: '30px', 
                     maxWidth: '270px',
@@ -157,7 +165,13 @@ export default function HomepageContent() {
                         Quick VM
                     </div> */}
                     <div style={{fontSize: 21}}>
-                        Have a Windows VM ready-to-use in under 100 seconds!
+                        Have a VM
+                    </div>
+                    <div style={{fontSize: 21}}>
+                        ready to use in
+                    </div>
+                    <div style={{fontSize: 21}}>
+                        under 100 seconds!
                     </div>
                 </div>
                 </CardContent>
@@ -183,7 +197,6 @@ export default function HomepageContent() {
             </div>
         </span> */}
 
-    </Link>
     </div>
 
 {/* PRISM */}
@@ -191,13 +204,15 @@ export default function HomepageContent() {
     <div className="pro-card">
         <Card className={classes.root}>
             <CardActionArea>
-            <CardMedia
-                className={classes.media}
-                image={"../assets/vm-logo.svg"}
-                />
+            <img 
+          alt="logo" 
+          draggable="false" 
+          unselectable="on" 
+          src={PrismLogo} 
+          height="120"/>
                 <CardContent>
-                <div style={{display: 'flex', flexDirection: 'column'}}>
-                {/* <img width="90"
+                {/* <div style={{display: 'flex', flexDirection: 'column'}}>
+                <img width="90"
                     src="../assets/vm-logo.svg"
                     style=
                 {{marginBottom: 'auto',
@@ -205,13 +220,12 @@ export default function HomepageContent() {
                   marginRight: 'auto',
                   marginLeft: 'auto',
                   maxWidth: '192px'}}
-                alt="project-logo"/> */}
-                </div>
+                alt="project-logo"/>
+                </div> */}
                 <div style=
                     {{display: 'flex',
                     flexDirection: 'column',
                     textAlign: 'center',
-                    marginTop: '20px',
                     marginRight: '20px', 
                     marginLeft: '30px', 
                     maxWidth: '270px',

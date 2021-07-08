@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.fcad2789.chunk.css",
-    "main.js": "/static/js/main.e0128952.chunk.js",
-    "main.js.map": "/static/js/main.e0128952.chunk.js.map",
+    "main.js": "/static/js/main.19545d5a.chunk.js",
+    "main.js.map": "/static/js/main.19545d5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8144a20.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8144a20.js.map",
-    "static/js/2.8f6b62b4.chunk.js": "/static/js/2.8f6b62b4.chunk.js",
-    "static/js/2.8f6b62b4.chunk.js.map": "/static/js/2.8f6b62b4.chunk.js.map",
+    "static/js/2.caa6c030.chunk.js": "/static/js/2.caa6c030.chunk.js",
+    "static/js/2.caa6c030.chunk.js.map": "/static/js/2.caa6c030.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.fcad2789.chunk.css.map": "/static/css/main.fcad2789.chunk.css.map",
-    "static/js/2.8f6b62b4.chunk.js.LICENSE.txt": "/static/js/2.8f6b62b4.chunk.js.LICENSE.txt"
+    "static/js/2.caa6c030.chunk.js.LICENSE.txt": "/static/js/2.caa6c030.chunk.js.LICENSE.txt",
+    "static/media/PrismCard.622bc3b5.svg": "/static/media/PrismCard.622bc3b5.svg",
+    "static/media/QuickVMCard.a67ba6bd.svg": "/static/media/QuickVMCard.a67ba6bd.svg",
+    "static/media/pcard.c08d6f89.svg": "/static/media/pcard.c08d6f89.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8144a20.js",
-    "static/js/2.8f6b62b4.chunk.js",
+    "static/js/2.caa6c030.chunk.js",
     "static/css/main.fcad2789.chunk.css",
-    "static/js/main.e0128952.chunk.js"
+    "static/js/main.19545d5a.chunk.js"
   ]
 }

@@ -10,26 +10,26 @@ import Merchandise from "./MyComponents/MyPages/Merchandise";
 
 import './styles.css'
 
-import { BrowserRouter as Router, Switch, Route  } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route  } from "react-router-dom";
 
 function App() {
   return (
     <>
 
-    <Router>
+    {/* <Router> */}
       
       <Header/>              {/* $About and $Contact */}
-
-      <Switch>
+      <Homepage/>            {/* Terminal + All Cards */}
+      {/* <Switch>
 
         <Route path="/"           exact component={Homepage} />
         <Route path="/optimize"   exact component={Sitara} />
         <Route path="/quick-vm"   exact component={QuickVM} />
         <Route path="/design"     exact component={Merchandise} />
       
-      </Switch>
+      </Switch> */}
 
-    </Router>
+    {/* </Router> */}
     
     </>
   );

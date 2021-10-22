@@ -105,23 +105,21 @@ export default function ProductTag() {
           flexDirection: 'column',
           color: '#FFFFFF',
           width: 270,
-          height: 240,
+          height: 'auto',
           borderRadius: '18px',
           textDecoration: 'none',
-          paddingTop: '10px',
-          paddingBottom: '10px',
           alignItems: 'center',
           justifyContent: 'center', }}>
         
         <ComingSoonBtn 
           className="noselect" 
-          style={{backgroundColor: '#2a2a2a',
+          style={{backgroundColor: '#1e1e1e',
           width: 230,
           height: 'auto',
+          marginTop: '15px',
           marginLeft: 'auto',
           marginRight: 'auto',
-          marginBottom: '10px',
-          borderRadius: '15px',
+          borderRadius: '13px',
           display: 'inline block',
           paddingTop: 15,
           paddingBottom: 15,  }}>
@@ -147,11 +145,12 @@ export default function ProductTag() {
           height: 60,
           marginLeft: 'auto',
           marginRight: 'auto',
-          marginTop: '10px',
-          borderRadius: '15px',
+          marginTop: '15px',
+          marginBottom: '15px',
+          borderRadius: '12px',
           color: '#eee',  }}>
         
-          Check Out
+          Hacker
           
         </ComingSoonBtn>
 
